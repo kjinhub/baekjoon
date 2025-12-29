@@ -1,0 +1,30 @@
+# Java 컴파일 파일
+*.class
+
+# 로그 및 데이터베이스 관련
+*.log
+*.sql
+*.sqlite
+
+# OS 관련
+.DS_Store
+Thumbs.db
+
+# 빌드 도구 (Maven, Gradle)
+target/
+build/
+.gradle/
+
+# IDE 설정 (Eclipse, IntelliJ)
+.settings/
+.project
+.classpath
+.metadata/
+.idea/
+*.iml
+*.iws
+
+# 보안 (API 키, 설정값 등)
+*.env
+config.properties
+bin/
